@@ -23,7 +23,7 @@ public class MakingAnagrams{
     }
 
     for(int i = 0; i < 26; i++){
-      deleteRequired += aCharCount[i] - bCharCount[i];
+      deleteRequired += Math.abs(aCharCount[i] - bCharCount[i]);
     }
 
     System.out.println(deleteRequired);
