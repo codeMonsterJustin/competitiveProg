@@ -1,3 +1,6 @@
+//NOTE this code is incorrect since it had been changed afterward
+
+
 import java.util.*;
 
 public class Cash{
